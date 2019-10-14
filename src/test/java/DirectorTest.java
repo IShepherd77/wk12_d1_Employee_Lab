@@ -16,7 +16,7 @@ public class DirectorTest {
 
     @Test
     public void hasName(){
-        assertEquals("Ian Dir", director.getName());
+        assertEquals("Ian Dir", director.getName(null));
     }
 
     @Test

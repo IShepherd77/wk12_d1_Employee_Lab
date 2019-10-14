@@ -12,7 +12,10 @@ public abstract class Employee {
         this.salary = salary;
     }
 
-    public String getName(){
+    public String getName(String name) {
+        if (name != null) {
+            return this.name;
+        }
         return this.name;
     }
 

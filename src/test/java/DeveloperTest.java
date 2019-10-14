@@ -15,7 +15,7 @@ public class DeveloperTest {
 
     @Test
     public void hasName(){
-        assertEquals("IanDev", developer.getName());
+        assertEquals("IanDev", developer.getName(null));
     }
 
     @Test

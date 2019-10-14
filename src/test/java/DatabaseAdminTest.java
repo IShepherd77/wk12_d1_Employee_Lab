@@ -15,7 +15,7 @@ public class DatabaseAdminTest {
 
     @Test
     public void hasName(){
-        assertEquals("IanDBA", databaseAdmin.getName());
+        assertEquals("IanDBA", databaseAdmin.getName(null));
     }
 
     @Test

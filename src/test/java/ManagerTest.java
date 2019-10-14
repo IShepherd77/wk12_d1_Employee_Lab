@@ -15,7 +15,7 @@ public class ManagerTest {
 
     @Test
     public void hasName(){
-        assertEquals("Ian", manager.getName());
+        assertEquals("Ian", manager.getName(null));
     }
 
     @Test
